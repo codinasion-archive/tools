@@ -1,52 +1,46 @@
 ---
 title: Convert Octal to Hexadecimal
-description: Convert a octal number to hexadecimal number.
+description: Tool to convert octal numbers to hexadecimal
 tags:
   - octal
   - hexadecimal
   - conversion
-  - math
-  - number
-  - number system
 ---
 
-# Convert Octal to Hexadecimal
+### Octal Number System
 
-This tool converts an octal number to hexadecimal number.
+The octal number system is a base-8 number system. It uses eight symbols: 0, 1, 2, 3, 4, 5, 6, and 7. The octal number system is used in computers and other digital devices.
 
-## Example
+### Hexadecimal Number System
 
-```text
-Octal: 9
-Hexadecimal: 9
-```
+The hexadecimal number system is a base-16 number system. It uses sixteen symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal number system is used in computers and other digital devices.
 
-## How to convert octal to hexadecimal
+### Conversion
 
-To convert octal to hexadecimal, you need to follow these steps:
+The conversion from octal to hexadecimal is done by converting the octal number to decimal and then converting the decimal number to hexadecimal.
 
-1. Convert the octal number to decimal number.
-2. Convert the decimal number to hexadecimal number.
+### Conversion Table
 
-For example, let's convert the octal number `9` to hexadecimal number.
+| Octal | Decimal | Hexadecimal |
+| ----- | ------- | ----------- |
+| 0     | 0       | 0           |
+| 1     | 1       | 1           |
+| 2     | 2       | 2           |
+| 3     | 3       | 3           |
+| 4     | 4       | 4           |
+| 5     | 5       | 5           |
+| 6     | 6       | 6           |
+| 7     | 7       | 7           |
+| 10    | 8       | 8           |
+| 11    | 9       | 9           |
+| 12    | 10      | A           |
+| 13    | 11      | B           |
+| 14    | 12      | C           |
+| 15    | 13      | D           |
+| 16    | 14      | E           |
+| 17    | 15      | F           |
 
-1. Convert the octal number to decimal number
+### References
 
-```text
-9 = 9 * 8^0
-  = 9 * 1
-  = 9
-```
-
-2. Convert the decimal number to hexadecimal number
-
-```text
-9 = 9 * 16^0
-  = 9 * 1
-  = 9
-```
-
-```text
-Octal: 9
-Hexadecimal: 9
-```
+- [Octal Number System](https://en.wikipedia.org/wiki/Octal)
+- [Hexadecimal Number System](https://en.wikipedia.org/wiki/Hexadecimal)

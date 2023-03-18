@@ -1,29 +1,25 @@
 ---
 title: Convert Binary to Hexadecimal
-description: Convert a binary number to a hexadecimal number
+description: Tool to convert binary numbers to hexadecimal numbers
 tags:
   - binary
   - hexadecimal
   - conversion
-  - math
-  - number
-  - number system
 ---
 
-# Convert Binary to Hexadecimal
+### Binary Number System
 
-This tool converts a binary number to a hexadecimal number.
+The binary number system is a base-2 number system. It uses only two symbols: 0 and 1. The binary number system is used in computers and other digital devices.
 
-## Example
+### Hexadecimal Number System
 
-```text
-Binary: 1001
-Hexadecimal: 9
-```
+The hexadecimal number system is a base-16 number system. It uses sixteen symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal number system is used in computers and other digital devices.
 
-## How to convert binary to hexadecimal
+### Conversion
 
-To convert a binary number to a hexadecimal number, you need to split the binary number into groups of four digits. Then, you need to convert each group to a hexadecimal digit.
+The conversion from binary to hexadecimal is done by splitting the binary number into groups of four digits. Each group is converted to a hexadecimal digit. The hexadecimal digits are then concatenated to form the hexadecimal number.
+
+### Conversion Table
 
 | Binary | Hexadecimal |
 | ------ | ----------- |
@@ -44,9 +40,7 @@ To convert a binary number to a hexadecimal number, you need to split the binary
 | 1110   | E           |
 | 1111   | F           |
 
-For example, let's convert the binary number `1001` to a hexadecimal number.
+### References
 
-```text
-Binary: 10010101
-Hexadecimal: 95
-```
+- [Binary Number System](https://en.wikipedia.org/wiki/Binary_number)
+- [Hexadecimal Number System](https://en.wikipedia.org/wiki/Hexadecimal)

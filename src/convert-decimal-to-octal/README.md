@@ -1,34 +1,25 @@
 ---
 title: Convert Decimal to Octal
-description: Convert a decimal number to octal number
+description: Tool to convert decimal numbers to octal
 tags:
   - decimal
   - octal
   - conversion
-  - math
-  - number
-  - number system
 ---
 
-# Convert Decimal to Octal
+### Decimal Number System
 
-This tool converts a decimal number to octal number.
+The decimal number system is a base-10 number system. It uses ten symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. The decimal number system is used in everyday life.
 
-## Example
+### Octal Number System
 
-```text
-Decimal: 9
-Octal: 11
-```
+The octal number system is a base-8 number system. It uses eight symbols: 0, 1, 2, 3, 4, 5, 6, and 7. The octal number system is used in computers and other digital devices.
 
-## How to convert decimal to octal
+### Conversion
 
-To convert a decimal number to octal number, follow these steps:
+The conversion from decimal to octal is done by dividing the decimal number by 8. The remainder is the octal digit. The quotient is then divided by 8 again. The process is repeated until the quotient is 0.
 
-1. Divide the decimal number by 8.
-2. Get the integer quotient for the next iteration.
-3. Get the remainder for the octal digit.
-4. Repeat the steps until the quotient is equal to 0.
+### Conversion Table
 
 | Decimal | Octal |
 | ------- | ----- |
@@ -40,15 +31,9 @@ To convert a decimal number to octal number, follow these steps:
 | 5       | 5     |
 | 6       | 6     |
 | 7       | 7     |
+| 8       | 10    |
 
-For example, to convert 9 to octal, we divide 9 by 8:
+### References
 
-| Step  | Quotient | Remainder |
-| ----- | -------- | --------- |
-| 9 / 8 | 1        | 1         |
-| 1 / 8 | 0        | 1         |
-
-```text
-Decimal: 9
-Octal: 11
-```
+- [Decimal Number System](https://en.wikipedia.org/wiki/Decimal)
+- [Octal Number System](https://en.wikipedia.org/wiki/Octal)

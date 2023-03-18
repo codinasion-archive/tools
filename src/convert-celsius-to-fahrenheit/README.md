@@ -1,31 +1,32 @@
 ---
 title: Convert Celsius to Fahrenheit
-description: Convert a temperature in Celsius to a temperature in Fahrenheit
+description: Tool to convert temperatures from Celsius to Fahrenheit
 tags:
   - celsius
   - fahrenheit
-  - conversion
-  - math
   - temperature
+  - conversion
 ---
 
-# Convert Celsius to Fahrenheit
+### Celsius
 
-This tool converts a temperature in Celsius to a temperature in Fahrenheit.
+The Celsius scale is a temperature scale based on 0 degrees for the freezing point of water and 100 degrees for the boiling point of water. The Celsius scale is used in most of the world.
 
-## Example
+### Fahrenheit
 
-```text
-Celsius: -40
-Fahrenheit: -40
-```
+The Fahrenheit scale is a temperature scale based on 32 degrees for the freezing point of water and 212 degrees for the boiling point of water. The Fahrenheit scale is used in the United States.
 
-## How to convert Celsius to Fahrenheit
+### Conversion
 
-To convert a temperature in Celsius to a temperature in Fahrenheit, you need to multiply the temperature in Celsius by 1.8 and add 32.
+The conversion from Celsius to Fahrenheit is done by multiplying the Celsius temperature by 9/5 and adding 32.
 
-For example, let's convert the temperature `-40` Celsius to a temperature in Fahrenheit.
+For example, the Celsius temperature 0 is converted to Fahrenheit as follows:
 
 ```text
--40 * 1.8 + 32 = -40 * 1.8 + 32 = -40
+0 * 9/5 + 32 = 32
 ```
+
+### References
+
+- [Celsius](https://en.wikipedia.org/wiki/Celsius)
+- [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit)

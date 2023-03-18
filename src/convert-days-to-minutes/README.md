@@ -1,29 +1,32 @@
 ---
 title: Convert Days to Minutes
-description: Convert number of days to
+description: Tool to convert time from days to minutes
 tags:
   - days
   - minutes
-  - conversion
-  - math
   - time
+  - conversion
 ---
 
-# Convert Days to Minutes
+### Days
 
-This tool converts the number of days to minutes.
+The day is a unit of time in the metric system. There are 24 hours in 1 day. The day is used in everyday life.
 
-## Example
+### Minutes
+
+The minute is a unit of time in the metric system. There are 60 seconds in 1 minute. The minute is used in everyday life.
+
+### Conversion
+
+The conversion from days to minutes is done by multiplying the day time by 1440.
+
+For example, the day time 1 is converted to minutes as follows:
 
 ```text
-Days: 1
-Minutes: 1440
+1 * 1440 = 1440
 ```
 
-## How to convert days to minutes
+### References
 
-To convert days to minutes, multiply the number of days by 1440.
-
-```text
-1 day = 1 * 1440 = 1440 minutes
-```
+- [Day](https://en.wikipedia.org/wiki/Day)
+- [Minute](https://en.wikipedia.org/wiki/Minute)

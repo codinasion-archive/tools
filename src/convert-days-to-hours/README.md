@@ -1,31 +1,32 @@
 ---
 title: Convert Days to Hours
-description: Convert number of days to hours
+description: Tool to convert time from days to hours
 tags:
   - days
   - hours
-  - conversion
-  - math
   - time
+  - conversion
 ---
 
-# Convert Days to Hours
+### Days
 
-This tool converts days to hours (d to h) and vice versa.
+The day is a unit of time in the metric system. There are 24 hours in 1 day. The day is used in everyday life.
 
-## Example
+### Hours
 
-```text
-Days: 1
-Hours: 24
-```
+The hour is a unit of time in the metric system. There are 60 minutes in 1 hour. There are 3600 seconds in 1 hour. The hour is used in everyday life.
 
-## How to convert days to hours
+### Conversion
 
-To convert days to hours, multiply the number of days by 24.
+The conversion from days to hours is done by multiplying the day time by 24.
 
-For example, to convert 1 day to hours, multiply 1 by 24, that makes 24 hours in 1 day.
+For example, the day time 1 is converted to hours as follows:
 
 ```text
-1 day = 1 * 24 = 24 hours
+1 * 24 = 24
 ```
+
+### References
+
+- [Day](https://en.wikipedia.org/wiki/Day)
+- [Hour](https://en.wikipedia.org/wiki/Hour)

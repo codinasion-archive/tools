@@ -1,21 +1,34 @@
 ---
 title: Convert String to Pascal Case
-description: Convert a string to PascalCase
+description: Tool to convert a string to pascal case
 tags:
   - string
-  - pascal case
-  - conversion
+  - pascal
+  - case
   - format
-  - PascalCase
 ---
 
-# Convert String to Pascal Case
+### String
 
-This tool converts a string to PascalCase.
+A string is a sequence of characters. Strings are used in programming to store text.
 
-## Example
+### Pascal Case
+
+Pascal case is a naming convention where the first letter of each word is capitalized. Pascal case is used in programming to name classes and types.
+
+### Conversion
+
+The conversion from string to pascal case is done by splitting the string into words, capitalizing the first letter of each word, and joining the words back together.
+
+For example, the string `hello world` is converted to pascal case as follows:
 
 ```text
-Input:  hello world
-Output: HelloWorld
+hello world
+-> hello, world
+-> Hello, World
+-> HelloWorld
 ```
+
+### References
+
+- [Pascal case](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Pascal_case)
