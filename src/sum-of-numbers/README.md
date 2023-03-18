@@ -1,20 +1,26 @@
 ---
 title: Sum of Numbers
-description: Find Sum of
+description: Tool to sum numbers
 tags:
-  - number
   - sum
+  - numbers
   - addition
-  - math
 ---
 
-# Sum of Numbers
+### Sum
 
-This tool finds the sum of numbers in a list.
+The sum is the result of adding numbers. The sum is used in everyday life.
 
-## Example
+### Numbers
 
-```text
-Input: [1, 2, 3, 4, 5]
-Output: 15
-```
+The number is a unit of measurement in the metric system. The number is used in everyday life.
+
+### Addition
+
+The addition is the operation of adding numbers. The addition is used in everyday life.
+
+### References
+
+- [Sum](https://en.wikipedia.org/wiki/Sum)
+- [Number](https://en.wikipedia.org/wiki/Number)
+- [Addition](https://en.wikipedia.org/wiki/Addition)

@@ -1,21 +1,34 @@
 ---
 title: Format String to Camel Case
-description: Convert a string to camelCase
+description: Tool to convert a string to camel case
 tags:
   - string
-  - camel case
-  - conversion
+  - camel
+  - case
   - format
-  - camelCase
 ---
 
-# Format String to Camel Case
+### String
 
-This tool converts a string to camelCase.
+A string is a sequence of characters. Strings are used in programming to store text.
 
-## Example
+### Camel Case
+
+Camel case is a naming convention where the first letter of each word is capitalized. Camel case is used in programming to name variables and functions.
+
+### Conversion
+
+The conversion from string to camel case is done by splitting the string into words, capitalizing the first letter of each word, and joining the words back together.
+
+For example, the string `hello world` is converted to camel case as follows:
 
 ```text
-Input:  hello world
-Output: helloWorld
+hello world
+-> hello, world
+-> Hello, World
+-> HelloWorld
 ```
+
+### References
+
+- [Camel case](https://en.wikipedia.org/wiki/Camel_case)

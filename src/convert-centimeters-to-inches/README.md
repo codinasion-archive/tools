@@ -1,31 +1,32 @@
 ---
 title: Convert Centimeters to Inches
-description: Convert a length in centimeters to a length in inches
+description: Tool to convert distances from centimeters to inches
 tags:
   - centimeters
   - inches
+  - distance
   - conversion
-  - math
-  - length
 ---
 
-# Convert Centimeters to Inches
+### Centimeters
 
-This tool converts a length in centimeters to a length in inches.
+The centimeter is a unit of length in the metric system. There are 100 centimeters in 1 meter. The centimeter is used in everyday life.
 
-## Example
+### Inches
 
-```text
-Centimeters: 100
-Inches: 39.3701
-```
+The inch is a unit of length in the imperial system. There are 12 inches in 1 foot. There are 36 inches in 1 yard. There are 63360 inches in 1 mile. The inch is used in everyday life.
 
-## How to convert centimeters to inches
+### Conversion
 
-To convert a length in centimeters to a length in inches, you need to divide the length in centimeters by 2.54.
+The conversion from centimeters to inches is done by dividing the centimeter distance by 2.54.
 
-For example, let's convert the length `100` centimeters to a length in inches.
+For example, the centimeter distance 100 is converted to inches as follows:
 
 ```text
-100 / 2.54 = 39.3701
+100 / 2.54 = 39.37
 ```
+
+### References
+
+- [Centimeter](https://en.wikipedia.org/wiki/Centimetre)
+- [Inch](https://en.wikipedia.org/wiki/Inch)

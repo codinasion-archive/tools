@@ -1,29 +1,25 @@
 ---
 title: Convert Binary to Octal
-description: Convert a binary number to an octal
+description: Tool to convert binary numbers to octal numbers
 tags:
   - binary
   - octal
   - conversion
-  - math
-  - number
-  - number system
 ---
 
-# Convert Binary to Octal
+### Binary Number System
 
-This tool converts a binary number to an octal number.
+The binary number system is a base-2 number system. It uses only two symbols: 0 and 1. The binary number system is used in computers and other digital devices.
 
-## Example
+### Octal Number System
 
-```text
-Binary: 1001
-Octal: 11
-```
+The octal number system is a base-8 number system. It uses eight symbols: 0, 1, 2, 3, 4, 5, 6, and 7. The octal number system is used in computers and other digital devices.
 
-## How to convert binary to octal
+### Conversion
 
-To convert a binary number to an octal number, you need to split the binary number into groups of three digits. Then, you need to convert each group to an octal digit.
+The conversion from binary to octal is done by splitting the binary number into groups of three digits. Each group is converted to an octal digit. The octal digits are then concatenated to form the octal number.
+
+### Conversion Table
 
 | Binary | Octal |
 | ------ | ----- |
@@ -36,9 +32,7 @@ To convert a binary number to an octal number, you need to split the binary numb
 | 110    | 6     |
 | 111    | 7     |
 
-For example, let's convert the binary number `1001` to an octal number.
+### References
 
-```text
-Binary: 1001
-Octal: 11
-```
+- [Binary Number System](https://en.wikipedia.org/wiki/Binary_number)
+- [Octal Number System](https://en.wikipedia.org/wiki/Octal)

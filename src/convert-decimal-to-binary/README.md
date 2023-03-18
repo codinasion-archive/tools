@@ -1,42 +1,47 @@
 ---
 title: Convert Decimal to Binary
-description: Convert a decimal number to binary number
+description: Tool to convert decimal numbers to binary numbers
 tags:
-  - binary
   - decimal
+  - binary
   - conversion
-  - math
-  - number
-  - number system
 ---
 
-# Convert Decimal to Binary
+### Decimal Number System
 
-This tool converts a decimal number to binary number.
+The decimal number system is a base-10 number system. It uses ten symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. The decimal number system is used in everyday life.
 
-## Example
+### Binary Number System
 
-```text
-Decimal: 9
-Binary: 1001
-```
+The binary number system is a base-2 number system. It uses only two symbols: 0 and 1. The binary number system is used in computers and other digital devices.
 
-## How to convert decimal to binary
+### Conversion
 
-To convert a decimal number to binary, follow these steps:
+The conversion from decimal to binary is done by repeatedly dividing the decimal number by 2. The remainder of each division is concatenated to form the binary number.
 
-1. Divide the decimal number by 2.
-2. Get the integer quotient for the next iteration.
-3. Get the remainder for the binary digit.
-4. Repeat the steps until the quotient is equal to 0.
+### Conversion Table
 
-For example, to convert 9 to binary, we divide 9 by 2:
+| Decimal | Binary |
+| ------- | ------ |
+| 0       | 0      |
+| 1       | 1      |
+| 2       | 10     |
+| 3       | 11     |
+| 4       | 100    |
+| 5       | 101    |
+| 6       | 110    |
+| 7       | 111    |
+| 8       | 1000   |
+| 9       | 1001   |
+| 10      | 1010   |
+| 11      | 1011   |
+| 12      | 1100   |
+| 13      | 1101   |
+| 14      | 1110   |
+| 15      | 1111   |
+| 16      | 10000  |
 
-| Step | Quotient | Remainder |
-| ---- | -------- | --------- |
-| 9/2  | 4        | 1         |
-| 4/2  | 2        | 0         |
-| 2/2  | 1        | 0         |
-| 1/2  | 0        | 1         |
+### References
 
-The binary number is the sequence of remainders in reverse order, so the binary of 9 is 1001.
+- [Decimal Number System](https://en.wikipedia.org/wiki/Decimal)
+- [Binary Number System](https://en.wikipedia.org/wiki/Binary_number)

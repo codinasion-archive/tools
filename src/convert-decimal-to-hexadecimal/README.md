@@ -1,34 +1,25 @@
 ---
 title: Convert Decimal to Hexadecimal
-description: Convert a decimal number to hexadecimal number
+description: Tool to convert numbers from decimal to hexadecimal
 tags:
   - decimal
   - hexadecimal
   - conversion
-  - math
-  - number
-  - number system
 ---
 
-# Convert Decimal to Hexadecimal
+### Decimal Number System
 
-This tool converts a decimal number to hexadecimal number.
+The decimal number system is a base-10 number system. It uses ten symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, and 9. The decimal number system is used in everyday life.
 
-## Example
+### Hexadecimal Number System
 
-```text
-Decimal: 9
-Hexadecimal: 9
-```
+The hexadecimal number system is a base-16 number system. It uses sixteen symbols: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, and F. The hexadecimal number system is used in computers and other digital devices.
 
-## How to convert decimal to hexadecimal
+### Conversion
 
-To convert a decimal number to hexadecimal number, follow these steps:
+The conversion from decimal to hexadecimal is done by dividing the decimal number by 16. The remainder is the hexadecimal digit. The quotient is then divided by 16 again. The process is repeated until the quotient is 0.
 
-1. Divide the decimal number by 16.
-2. Get the integer quotient for the next iteration.
-3. Get the remainder for the hexadecimal digit.
-4. Repeat the steps until the quotient is equal to 0.
+### Conversion Table
 
 | Decimal | Hexadecimal |
 | ------- | ----------- |
@@ -49,16 +40,7 @@ To convert a decimal number to hexadecimal number, follow these steps:
 | 14      | E           |
 | 15      | F           |
 
-For example, let's convert the decimal number 9 to hexadecimal.
+### References
 
-1. Divide 9 by 16. The quotient is 0 and the remainder is 9.
-2. The hexadecimal number is 9.
-
-| Step | Quotient | Remainder | Hexadecimal digit |
-| ---- | -------- | --------- | ----------------- |
-| 9/16 | 0        | 9         | 9                 |
-
-```text
-Decimal: 9
-Hexadecimal: 9
-```
+- [Decimal Number System](https://en.wikipedia.org/wiki/Decimal)
+- [Hexadecimal Number System](https://en.wikipedia.org/wiki/Hexadecimal)

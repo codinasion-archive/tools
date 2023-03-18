@@ -1,29 +1,32 @@
 ---
 title: Convert Days to Seconds
-description: Convert number of days to seconds
+description: Tool to convert time from days to seconds
 tags:
   - days
   - seconds
-  - conversion
-  - math
   - time
+  - conversion
 ---
 
-# Convert Days to Seconds
+### Days
 
-This tool converts the number of days to seconds.
+The day is a unit of time in the metric system. There are 24 hours in 1 day. The day is used in everyday life.
 
-## Example
+### Seconds
+
+The second is a unit of time in the metric system. There are 1000 milliseconds in 1 second. The second is used in everyday life.
+
+### Conversion
+
+The conversion from days to seconds is done by multiplying the day time by 86400.
+
+For example, the day time 1 is converted to seconds as follows:
 
 ```text
-Days: 1
-Seconds: 86400
+1 * 86400 = 86400
 ```
 
-## How to convert days to seconds
+### References
 
-To convert days to seconds, multiply the number of days by 86400.
-
-```text
-1 day = 1 * 86400 = 86400 seconds
-```
+- [Day](https://en.wikipedia.org/wiki/Day)
+- [Second](https://en.wikipedia.org/wiki/Second)
